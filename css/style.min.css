@@ -82,6 +82,7 @@ input,textarea{padding:18px 27px;color:#606060;border:none}
 .services-btn{margin-top:5px}
 }
 .calculator{background-image:linear-gradient(rgba(0,0,0,.66),rgba(0,0,0,.66)),url(../img/calculator/back.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;padding-top:63px;padding-bottom:55px;color:#fff}
+.calculator .title{color:#fff}
 .calculator .title--decorator:after{background-color:#fff;margin:28px auto 25px auto}
 .calculator__text{font-size:26px;text-align:center;margin-bottom:37px}
 .calculator-package,.calculator-square{border:1px solid #fff;border-radius:5px;padding:21px 23px}

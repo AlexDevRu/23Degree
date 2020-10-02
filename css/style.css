@@ -380,6 +380,9 @@ input, textarea {
   padding-bottom: 55px;
   color: #fff;
 }
+.calculator .title {
+  color: #fff;
+}
 .calculator .title--decorator:after {
   background-color: #fff;
   margin: 28px auto 25px auto;
