@@ -1,0 +1,56 @@
+@import "_vars.scss";
+
+body {
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+input:focus, input:active,
+button:focus, button:active, {
+	outline: none;
+}
+
+button {
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+}
+
+a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.base-btn {
+	color: #fff;
+	background-color: $blue;
+	border-radius: 40px;
+	transition: all 0.3s ease-out;
+
+	&:hover {
+		background-color: $darkblue;
+	}
+}
+
+.title {
+	font-size: 36px;
+	text-align: center;
+}
+
+.title--decorator:after {
+	content: '';
+	display: block;
+	height: 1px;
+	margin: 30px auto;
+	background-color: $blue;
+	max-width: 375px;
+}
