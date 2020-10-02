@@ -211,7 +211,7 @@ input,textarea{padding:18px 27px;color:#606060;border:none}
 .contacts-socials{text-align:center;margin-top:40px}
 }
 .contacts__time{font-size:16px}
-.map{max-width:100%}
+.map{max-width:100%;display:block}
 .footer{background-color:#24241f;color:#fff;font-size:14px}
 .footer-bottom,.footer-top{padding:0 16px;display:flex;justify-content:space-between;flex-wrap:wrap}
 .footer-top{padding-top:40px;padding-bottom:55px;border-bottom:1px solid #50504c}
